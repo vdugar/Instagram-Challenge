@@ -41,8 +41,8 @@ def compare_sequences(seq1, seq2):
     composed.paste(img1, (0, 0))
     composed.paste(img2, (SHRED_WIDTH, 0))
     filtered = composed.filter(ImageFilter.FIND_EDGES)
-    masked = ImageChops.multiply(filtered, mask)
-    masked = masked.convert("L")
+    # masked = ImageChops.multiply(filtered, mask)
+    masked = filtered.convert("L")
 
     # Checking to see if an edge was found at the border
     data = masked.getdata()
