@@ -1,5 +1,5 @@
 """
-Usage: python insta_new.py source_image NO_OF_SHREDS
+Usage: python instagram.py source_image NO_OF_SHREDS
 """
 
 import sys
