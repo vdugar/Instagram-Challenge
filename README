@@ -8,5 +8,8 @@ Usage:
 python shredder.py source_image NO_OF_SHREDS
 # Use this to shred the image
 
-python instagram.py shredded_image NO_OF_SHREDS
+python instagram.py [shredded_image] [NO_OF_SHREDS] [shred_method]
 # The unshredder. Outputs to 'unshredded.jpg'
+# shred_method can be either one of the following-
+# edge : Uses edge detection
+# euc : Uses Euclidean distances over average pixels
