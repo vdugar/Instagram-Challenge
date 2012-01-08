@@ -10,7 +10,8 @@ Given an image that has been shredded into 'n' equal-width jumbled  columns, thi
 `python instagram.py [shredded_image] [NO_OF_SHREDS] [shred_method]`
 *The unshredder. Outputs to 'unshredded.jpg'*
 *shred_method can be either one of the following-*
-*edge : Uses edge detection*
-*euc : Uses Euclidean distances over average pixels*
+
++ *edge : Uses edge detection*
++ *euc : Uses Euclidean distances over average pixels*
 
 *Note-> Both the shredder and unshredder work properly only if (IMAGE_WIDTH / NO_OF_SHREDS) is a whole number.*
